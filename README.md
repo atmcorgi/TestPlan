@@ -1,45 +1,41 @@
-# Test Plan
+# Kế Hoạch Kiểm Thử - Trang Web Phenikaa Canvas
 
 ## 1. Xác định kế hoạch kiểm thử:
 
-- **Tên Kế hoạch:** Kế hoạch Kiểm thử Hệ thống Quản lý Người dùng
+- **Tên Kế hoạch:** Kế hoạch Kiểm thử Trang Web Phenikaa Canvas
 - **Phiên bản:** 1.0
 
 ## 2. Giới thiệu:
 
-- **Mục tiêu:** Mục tiêu của kế hoạch này là kiểm thử hệ thống quản lý người dùng để đảm bảo tính đúng đắn và tính năng của phần mềm.
-- **Phần mềm:** Hệ thống Quản lý Người dùng (User Management System)
-- **Các tính năng cần được kiểm thử bao gồm:**
-  - Tạo, chỉnh sửa và xóa người dùng
-  - Quản lý quyền truy cập
-  - Đăng nhập và đăng xuất
-- **Tài liệu tham khảo:** Kế hoạch dự án, kế hoạch QA, tài liệu kỹ thuật của phần mềm.
+- **Mục tiêu:** Mục tiêu của kế hoạch này là kiểm thử trang web Phenikaa Canvas để đảm bảo tính đúng đắn, tính ổn định và tính bảo mật của nó.
+- **Phần mềm:** Trang web Phenikaa Canvas
+- **Tài liệu tham khảo:** Kế hoạch dự án, kế hoạch QA, tài liệu kỹ thuật của trang web.
 
 ## 3. Các Mục Kiểm Thử:
 
-- **Phần mềm:** Hệ thống Quản lý Người dùng (User Management System) - Phiên bản 2.1
-- **Cách truyền tải:** Tải từ mạng nội bộ
+- **Phần mềm:** Trang web Phenikaa Canvas - Phiên bản 2.0
+- **Cách truyền tải:** Truy cập qua mạng Internet
 - **Tài liệu phần mềm:** Tài liệu hướng dẫn sử dụng và tài liệu kỹ thuật.
 
 ## 4. Các Tính Năng Cần Được Kiểm Thử:
 
-- **Tạo, chỉnh sửa và xóa người dùng:** Sử dụng kỹ thuật kiểm thử hộp trắng để xác minh tính năng và tính đúng đắn.
-- **Quản lý quyền truy cập:** Sử dụng kỹ thuật kiểm thử hộp đen để kiểm tra tính năng và độ bảo mật.
-- **Đăng nhập và đăng xuất:** Kiểm tra tính năng và hiệu suất trong điều kiện tải.
+1. **Đăng nhập và đăng xuất:** Kiểm tra tính năng đăng nhập và đăng xuất của học sinh và giáo viên.
+2. **Quản lý khóa học:** Kiểm tra tính năng tạo, chỉnh sửa và xóa khóa học.
+3. **Giao diện người dùng:** Kiểm tra tính chất bắt mắt và trải nghiệm người dùng trên các thiết bị khác nhau.
 
 ## 5. Các Tính Năng Không Được Kiểm Thử:
 
-- Không kiểm thử tính năng liên quan đến thanh toán hoặc tính năng ngoại vi.
+- Tính năng thanh toán hoặc tính năng liên quan đến tài chính.
 
 ## 6. Phương Pháp:
 
-- Sử dụng một phương pháp kết hợp của kiểm thử hộp trắng và hộp đen để đảm bảo tính toàn diện và chất lượng của kiểm thử.
+- Sử dụng phương pháp kiểm thử hộp trắng và hộp đen để đảm bảo tính toàn diện và chất lượng của kiểm thử.
 - Sử dụng công cụ kiểm thử tự động để tăng hiệu suất và giảm thời gian kiểm thử.
-- Đảm bảo tính phủ sóng bằng cách kiểm tra từng chức năng theo kịch bản kiểm thử được thiết kế trước.
+- Đảm bảo tính phủ sóng bằng cách kiểm tra từng tính năng theo kịch bản kiểm thử được thiết kế trước.
 
 ## 7. Tiêu Chí Qua/Mặc Định:
 
-- Mỗi chức năng được kiểm thử được coi là thành công nếu không có lỗi nào được tìm thấy sau khi kiểm thử hoàn thành.
+- Mỗi tính năng được kiểm thử được coi là thành công nếu không có lỗi nào được tìm thấy sau khi kiểm thử hoàn thành.
 
 ## 8. Tiêu Chí Tạm Dừng và Tiêu Chí Tiếp Tục:
 
@@ -59,9 +55,9 @@
 
 ## 12. Trách Nhiệm:
 
-- Quản lý kiểm thử: [Tên người]
-- Thiết kế kiểm thử: [Tên người]
-- Thực hiện kiểm thử: [Tên người]
+- Quản lý kiểm thử: [Phạm Thành Trung]
+- Thiết kế kiểm thử: [Phạm Thành Trung]
+- Thực hiện kiểm thử: [Phạm Thành Trung]
 
 ## 13. Nhân Sự và Nhu Cầu Đào Tạo:
 
@@ -80,4 +76,4 @@
 
 ## 16. Phê Duyệt:
 
-- Kế hoạch này đã được phê duyệt bởi [Tên người] vào ngày [Ngày].
+- Kế hoạch này đã được phê duyệt bởi [Phạm Thành Trung] vào ngày [14/05/2024].
